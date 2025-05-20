@@ -41,12 +41,6 @@ python -m venv venv
 source venv/bin/activate  # Windows için: venv\Scripts\activate
 ```
 
-3. Gerekli kütüphaneleri yükleyin (ekstra kütüphane gerekmiyor, yalnızca standart kütüphaneler):
-
-```bash
-pip install -r requirements.txt  # Eğer oluşturursanız
-```
-
 ## ⚙️ Kullanım
 
 Ana menüyü başlatmak için:
@@ -60,7 +54,7 @@ Açılan pencerede üç seçenekten birini seçerek ilgili uygulamayı çalışt
 ## 📁 Proje Yapısı
 
 ```
-tkinter-app-launcher/
+itperformanceasgmt/
 ├── main.py                # Ana menü (uygulama başlatıcı)
 ├── alan_hesaplama.py      # Geometrik alan hesaplama arayüzü
 ├── mayin.py               # Mayın Tarlası oyunu
@@ -78,7 +72,6 @@ Bu projeyi tek başına çalışabilen bir `.exe` haline getirmek isterseniz:
 
 ```bash
 pip install pyinstaller
-
 pyinstaller --noconfirm --onefile --windowed main.py
 ```
 
@@ -86,16 +79,10 @@ pyinstaller --noconfirm --onefile --windowed main.py
 
 ## 👥 Ekip
 
-- **vflhzb1** – Proje yöneticisi, yazılım geliştirici
-- **Tkinter Topluluğu** – İlham ve bileşen tasarımları
+- **Muhammed Ömer ERKOÇ** - Hz/B - 433
+- **Taha AYDIN** - Hz/B - 433
+- **Taha AYDIN** - Hz/B - 433
 
 ## 📜 Lisans
 
 Bu proje MIT lisansı ile lisanslanmıştır. Ayrıntılar için `LICENSE` dosyasına göz atabilirsiniz.
-
-## 💡 Ekstra Geliştirme Fikirleri
-
-- Kullanıcı giriş sistemi
-- Tema değiştirme (açık/koyu)
-- Ayar sayfası (örn: dil, font büyüklüğü)
-- Uygulama logları ve kullanım istatistikleri
