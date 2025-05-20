@@ -1,3 +1,3 @@
-# Validebağ Science High School Preparatory Information Technologies Course End of Year Performance Assignment
+# Validebağ Fen Lisesi Hazırlık Bilişim Teknolojileri Dersi Sene Sonu Performans Ödevi
 
 
